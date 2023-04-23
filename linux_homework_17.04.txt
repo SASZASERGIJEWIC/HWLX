@@ -1,0 +1,19 @@
+   0 cd /home
+   1 mkdir -p /home/animals
+   2 mkdir -p /home/animals/dogs
+   3 mkdir -p /home/animals/cats
+   4 mkdir -p /home/animals/fish
+   5 touch /home/animals/dogs/pluto
+   6 touch /home/animals/cats/garfield
+   7 touch /home/animals/fish/nemo
+   8 cd /tmp
+   9 touch adam.txt
+  10 touch evA.txt
+  11 mkdir /home/humans
+  12 cp -r adam.txt /home/humans
+  13 cd /opt
+  14 mkdir /eve
+  15 cp -r /tmp/evA.txt /opt/eve.txt
+  16 cp -r eve.txt /home/humans
+  17 cd
+  18 history > linux_homework_17.04.txt
